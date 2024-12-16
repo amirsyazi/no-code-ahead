@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import AnimatedText from "./AnimatedText";
+import { AnimatedText } from "./AnimatedText";
 
 export const Pricing = () => {
   const standardFeatures = [
