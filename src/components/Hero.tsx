@@ -4,7 +4,13 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 to-transparent" />
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+        style={{ 
+          backgroundImage: "url('https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80')",
+        }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/80 to-background/95" />
       <div className="container mx-auto text-center relative z-10">
         <AnimatedText delay={0}>
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium rounded-full bg-primary/5 text-primary">
