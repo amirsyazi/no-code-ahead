@@ -4,14 +4,6 @@ import { Button } from "@/components/ui/button";
 export const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden">
-      <div className="absolute inset-0">
-        <iframe
-          className="w-full h-full object-cover"
-          src="https://twitter.com/i/status/1625360421279657985"
-          allowFullScreen
-          allow="autoplay"
-        />
-      </div>
       <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/80 to-background/95" />
       <div className="container mx-auto text-center relative z-10">
         <AnimatedText delay={0}>

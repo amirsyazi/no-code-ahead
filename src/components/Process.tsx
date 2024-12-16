@@ -20,8 +20,17 @@ export const Process = () => {
   ];
 
   return (
-    <section className="section-padding">
-      <div className="container mx-auto">
+    <section className="section-padding relative overflow-hidden">
+      <div className="absolute inset-0">
+        <iframe
+          className="w-full h-full object-cover"
+          src="https://twitter.com/i/status/1625360421279657985"
+          allowFullScreen
+          allow="autoplay"
+        />
+      </div>
+      <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/80 to-background/95" />
+      <div className="container mx-auto relative z-10">
         <AnimatedText>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
             My Process
