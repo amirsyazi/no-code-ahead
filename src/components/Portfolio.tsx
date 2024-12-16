@@ -17,7 +17,7 @@ export const Portfolio = () => {
     {
       title: "Stocks Social Media",
       description: "Real-time updates, leaderboards, and chat",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=500",
+      image: "https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734315385059x582578646897208700/Screenshot%202024-12-16%20at%209.53.30%20AM.png?_gl=1*14mbdsw*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..",
     },
     {
       title: "Gig Management System",
