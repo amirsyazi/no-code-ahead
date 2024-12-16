@@ -6,14 +6,14 @@ export const Hero = () => {
     <section className="min-h-screen flex items-center justify-center section-padding relative overflow-hidden">
       {/* Abstract Pattern Background */}
       <div 
-        className="absolute inset-0 opacity-50"
+        className="absolute inset-0 opacity-80"
         style={{
           backgroundImage: `url("https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734318891982x295194209561946430/6313863_3224665.jpg?_gl=1*1tnom6n*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..")`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/75 to-background/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background/70" />
       <div className="container mx-auto text-center relative z-10">
         <AnimatedText delay={0}>
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium rounded-full bg-primary/5 text-primary">
