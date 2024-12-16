@@ -47,21 +47,39 @@ export const ValueProps = () => {
           ))}
         </div>
 
-        <AnimatedText delay={400}>
-          <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
-            <div className="relative pb-[100%] h-0">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://platform.twitter.com/embed/Tweet.html?id=1658811191421206528"
-                allowFullScreen
-                allow="autoplay"
-              ></iframe>
+        <div className="space-y-12">
+          <AnimatedText delay={400}>
+            <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
+              <div className="relative pb-[100%] h-0">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://platform.twitter.com/embed/Tweet.html?id=1625360421279657985"
+                  allowFullScreen
+                  allow="autoplay"
+                ></iframe>
+              </div>
             </div>
-          </div>
-          <p className="text-center mt-4 text-muted-foreground">
-            Watch me build a drag and drop UI for a travel table page in Bubble
-          </p>
-        </AnimatedText>
+            <p className="text-center mt-4 text-muted-foreground">
+              Watch me build a front-end UI in Bubble for a pet web app (2x speed)
+            </p>
+          </AnimatedText>
+
+          <AnimatedText delay={600}>
+            <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
+              <div className="relative pb-[100%] h-0">
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://platform.twitter.com/embed/Tweet.html?id=1658811191421206528"
+                  allowFullScreen
+                  allow="autoplay"
+                ></iframe>
+              </div>
+            </div>
+            <p className="text-center mt-4 text-muted-foreground">
+              Watch me build a drag and drop UI for a travel table page in Bubble
+            </p>
+          </AnimatedText>
+        </div>
       </div>
     </section>
   );
