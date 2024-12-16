@@ -35,7 +35,7 @@ export const Pricing = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           <AnimatedText delay={200}>
-            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800">
+            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800 text-white">
               <h3 className="text-xl font-semibold mb-2">Standard</h3>
               <div className="mb-4">
                 <span className="text-5xl font-bold">$2,495</span>
@@ -59,7 +59,7 @@ export const Pricing = () => {
           </AnimatedText>
 
           <AnimatedText delay={400}>
-            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800">
+            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800 text-white">
               <h3 className="text-xl font-semibold mb-2">Pro</h3>
               <div className="mb-4">
                 <span className="text-5xl font-bold">$3,995</span>
@@ -83,7 +83,7 @@ export const Pricing = () => {
           </AnimatedText>
 
           <AnimatedText delay={600}>
-            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800">
+            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800 text-white">
               <h3 className="text-xl font-semibold mb-2">Custom</h3>
               <div className="mb-4">
                 <p className="text-lg">Need a custom plan? Let us know what works for you.</p>
@@ -94,7 +94,7 @@ export const Pricing = () => {
               </Button>
             </Card>
 
-            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800 mt-8">
+            <Card className="p-8 bg-gray-900/50 backdrop-blur border-gray-800 text-white mt-8">
               <h3 className="text-xl font-semibold mb-2">Refer & earn</h3>
               <p className="text-gray-400 mb-6">
                 Earn 5% commission every month for every referral. Contact us for a referral link.
