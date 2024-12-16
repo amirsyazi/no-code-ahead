@@ -52,14 +52,14 @@ export const ValueProps = () => {
             <div className="relative pb-[100%] h-0">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://platform.twitter.com/embed/Tweet.html?id=1625360421279657985"
+                src="https://platform.twitter.com/embed/Tweet.html?id=1658811191421206528"
                 allowFullScreen
                 allow="autoplay"
               ></iframe>
             </div>
           </div>
           <p className="text-center mt-4 text-muted-foreground">
-            Watch me build a front-end UI in Bubble for a pet web app (2x speed)
+            Watch me build a drag and drop UI for a travel table page in Bubble
           </p>
         </AnimatedText>
       </div>
