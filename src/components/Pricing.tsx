@@ -53,7 +53,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-1', '_blank')}
                 >
                   Book a call
@@ -81,7 +81,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-2', '_blank')}
                 >
                   Book a call
@@ -97,7 +97,7 @@ export const Pricing = () => {
                 <p className="text-lg">Need a custom plan? Let us know what works for you.</p>
               </div>
               <div className="flex-1" />
-              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-white" variant="outline">
+              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-gray-900" variant="outline">
                 Contact us
               </Button>
             </Card>
@@ -107,7 +107,7 @@ export const Pricing = () => {
               <p className="text-gray-400 mb-6">
                 Earn 5% commission every month for every referral. Contact us for a referral link.
               </p>
-              <Button className="w-full border-gray-700 hover:bg-gray-800 text-white" variant="outline">
+              <Button className="w-full border-gray-700 hover:bg-gray-800 text-gray-900" variant="outline">
                 Invite
               </Button>
             </Card>
