@@ -22,7 +22,7 @@ export const Portfolio = () => {
     {
       title: "Gig Management System",
       description: "Connect gig workers and companies seamlessly",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=500",
+      image: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/a9/96/7fa996bb-6e12-d279-1227-bffcad6c0a61/d7ea268b-c8ed-4216-8360-3bcfa3aff04d_6.5_Step-02.png/460x0w.webp",
     },
   ];
 
