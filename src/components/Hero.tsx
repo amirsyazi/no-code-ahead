@@ -13,7 +13,7 @@ export const Hero = () => {
           backgroundPosition: 'center',
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/60 to-background/70" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/40 to-background/50" />
       <div className="container mx-auto text-center relative z-10">
         <AnimatedText delay={0}>
           <span className="inline-block px-4 py-1.5 mb-6 text-sm font-medium rounded-full bg-primary/5 text-primary">
