@@ -12,7 +12,7 @@ export const Portfolio = () => {
     {
       title: "Exercise Rewards App",
       description: "Fitness tracker integrations + tokenized rewards",
-      image: "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&q=80&w=500",
+      image: "https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734315543943x704236389082265200/Screenshot%202024-12-16%20at%209.53.39%20AM.png?_gl=1*1ywp0rp*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..",
     },
     {
       title: "Stocks Social Media",
