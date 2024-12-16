@@ -49,7 +49,7 @@ export const ValueProps = () => {
 
         <AnimatedText delay={400}>
           <div className="max-w-4xl mx-auto rounded-lg overflow-hidden shadow-xl">
-            <div className="relative pb-[56.25%] h-0">
+            <div className="relative pb-[75%] h-0">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
                 src="https://platform.twitter.com/embed/Tweet.html?id=1625360421279657985"
