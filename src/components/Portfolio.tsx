@@ -7,7 +7,7 @@ export const Portfolio = () => {
     {
       title: "Tradelio Stock Portfolio",
       description: "Complex stock trade logic and calculations",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=500",
+      image: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7f/a9/96/7fa996bb-6e12-d279-1227-bffcad6c0a61/d7ea268b-c8ed-4216-8360-3bcfa3aff04d_6.5_Step-02.png/460x0w.webp",
     },
     {
       title: "Exercise Rewards App",
