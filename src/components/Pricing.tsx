@@ -62,7 +62,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900 bg-white hover:text-white"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-1', '_blank')}
                 >
                   Book a call
@@ -90,7 +90,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900 bg-white hover:text-white"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-2', '_blank')}
                 >
                   Book a call
