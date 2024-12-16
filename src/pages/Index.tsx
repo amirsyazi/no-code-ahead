@@ -4,6 +4,7 @@ import { Process } from "@/components/Process";
 import { Portfolio } from "@/components/Portfolio";
 import { Testimonials } from "@/components/Testimonials";
 import { CallToAction } from "@/components/CallToAction";
+import { Pricing } from "@/components/Pricing";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <ValueProps />
       <Process />
       <Portfolio />
+      <Pricing />
       <Testimonials />
       <CallToAction />
     </main>
