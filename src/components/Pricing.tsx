@@ -24,7 +24,7 @@ export const Pricing = () => {
           backgroundImage: `url('https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734319154328x961015072665613000/34363084_404288197149.jpg?_gl=1*1dhykef*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          opacity: 0.4,
+          opacity: 0.2,
         }}
       />
       <div className="container mx-auto relative z-10">
