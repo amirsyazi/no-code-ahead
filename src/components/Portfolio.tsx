@@ -7,7 +7,7 @@ export const Portfolio = () => {
     {
       title: "Tradelio Stock Portfolio",
       description: "Complex stock trade logic and calculations",
-      image: "https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734315296844x956963883798724800/Screenshot%202024-12-16%20at%2010.09.34%20AM.png?_gl=1*18r2d2l*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..",
+      image: "https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734315455725x383895122340755650/Screenshot%202024-12-16%20at%209.53.59%20AM.png?_gl=1*sds8hy*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..",
     },
     {
       title: "Exercise Rewards App",
