@@ -17,8 +17,17 @@ export const Pricing = () => {
   const proFeatures = ["2x faster task completion", ...standardFeatures];
 
   return (
-    <section className="section-padding bg-gray-950 text-white">
-      <div className="container mx-auto">
+    <section className="section-padding bg-gray-950 text-white relative">
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url('https://d4a2a1889ec80792c402c057c297a34b.cdn.bubble.io/f1734319154328x961015072665613000/34363084_404288197149.jpg?_gl=1*1dhykef*_gcl_au*MTQxMjc3NDMwMy4xNzMwMTE2MjA5*_ga*MjMxOTAyMDAxLjE3MTQzNTU5ODA.*_ga_BFPVR2DEE2*MTczNDMxNTI2Ny4xNDIuMS4xNzM0MzE1MjY4LjU5LjAuMA..')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.4,
+        }}
+      />
+      <div className="container mx-auto relative z-10">
         <AnimatedText>
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
@@ -53,7 +62,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-1', '_blank')}
                 >
                   Book a call
@@ -81,7 +90,7 @@ export const Pricing = () => {
                 <Button className="w-full bg-indigo-600 hover:bg-indigo-700">Get started</Button>
                 <Button 
                   variant="outline" 
-                  className="w-full border-gray-700 hover:bg-gray-800 text-gray-900"
+                  className="w-full border-gray-700 hover:bg-gray-800 text-white"
                   onClick={() => window.open('https://savvycal.com/amirsyazi/funnello-intro-call-2', '_blank')}
                 >
                   Book a call
@@ -97,7 +106,7 @@ export const Pricing = () => {
                 <p className="text-lg">Need a custom plan? Let us know what works for you.</p>
               </div>
               <div className="flex-1" />
-              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-gray-900" variant="outline">
+              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-white" variant="outline">
                 Contact us
               </Button>
             </Card>
@@ -107,7 +116,7 @@ export const Pricing = () => {
               <p className="text-gray-400 mb-6">
                 Earn 5% commission every month for every referral. Contact us for a referral link.
               </p>
-              <Button className="w-full border-gray-700 hover:bg-gray-800 text-gray-900" variant="outline">
+              <Button className="w-full border-gray-700 hover:bg-gray-800 text-white" variant="outline">
                 Invite
               </Button>
             </Card>
