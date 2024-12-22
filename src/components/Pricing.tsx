@@ -116,7 +116,7 @@ export const Pricing = () => {
               <p className="text-gray-400 mb-6">
                 Earn 5% commission every month for every referral. Contact us for a referral link.
               </p>
-              <Button className="w-full border-gray-700 hover:bg-gray-800 text-white" variant="outline">
+              <Button className="w-full border-gray-700 hover:bg-gray-800 text-gray-900 bg-white hover:text-white" variant="outline">
                 Invite
               </Button>
             </Card>
