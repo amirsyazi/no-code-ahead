@@ -106,7 +106,7 @@ export const Pricing = () => {
                 <p className="text-lg">Need a custom plan? Let us know what works for you.</p>
               </div>
               <div className="flex-1" />
-              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-white" variant="outline">
+              <Button className="w-full mt-8 border-gray-700 hover:bg-gray-800 text-gray-900 bg-white hover:text-white" variant="outline">
                 Contact us
               </Button>
             </Card>
